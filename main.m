@@ -10,7 +10,7 @@ clear all;
 close all;
 clc;
 rng(24);
-addpath('../channel_data_partial')         % adds path containing NYU channel data for wideband; parameters in paper
+addpath('channel_data_partial')         % adds path containing NYU channel data for wideband; parameters in paper
 
 % System parameters
 Nrx=16;
